@@ -10,6 +10,10 @@ void testisOdd() {
     TEST( isOdd(2) == 0);
     TEST( isOdd(8) == 0);
     TEST( isOdd(0) == 0);
+    TEST( isOdd(-4) == 0);
+    TEST( isOdd(-3) == 1);
+    TEST(isOdd(-10001) == 1);
+
 }
 
 int main() {

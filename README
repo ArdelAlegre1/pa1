@@ -1,0 +1,27 @@
+Author: Ardel Alegre
+UserID: cs20fac
+StudentID: A15752566
+Date: October 22, 2018
+
+Question 1:
+:split filename
+:vsplit filename
+
+Question 2:
+v
+V
+
+Question 3:
+:%s/<search_string>/<replace_string>/g
+
+Question 4:
+git status
+
+Question 5:
+git revert {commit_id}'
+
+Question 6:
+git log
+
+Question 7:
+Help[ them the best I can while following the rules of integrity

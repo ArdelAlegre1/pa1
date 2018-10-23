@@ -1,10 +1,9 @@
 /*
  * Filename: testdisplayWindmill.c
- * Author: TODO
- * Userid: TODO
+ * Author: Ardel Alegre
+ * Userid: cs30fac
+ * StudentID: A15752566
  * Description: Unit test program to test the function displayWindmill().
- * Date: TODO
- * Sources of Help: TODO
  */ 
 
 #include <stdio.h>
@@ -28,7 +27,7 @@ void testdisplayWindmill( ) {
 
   (void) displayWindmill( 9, '!', ',', '#' );
   (void) displayWindmill( 11, '^', '.', 'L');
- 
+  (void) displayWindmill( 3, 'q', "_", "Q");
 
   /*
    * TODO: write more tests here

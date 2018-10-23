@@ -9,7 +9,8 @@ void testgetRemainder() {
     TEST(getRemainder( 10, 10 )==0);
     TEST(getRemainder( 8, 10 ) == 8);
     TEST(getRemainder( 102, 10 ) == 2);
-
+    TEST(getRemainder(0, 6) == 0);
+    TEST(getRemainder(2, 2) == 0);
 }
 
 int main(void) {
